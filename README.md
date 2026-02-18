@@ -29,9 +29,10 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 * [**Google Colab**](https://colab.research.google.com/) - Ambiente de desenvolvimento em nuvem.
 * [**MySQL**](https://www.mysql.com/) - Sistema de Gerenciamento de Banco de Dados (SGBD).
+* [**MySQL Connector/Python**](https://dev.mysql.com/doc/connector-python/en/) - Driver oficial da Oracle para integração entre Python e MySQL.
+* [**SQLAlchemy**](https://www.sqlalchemy.org/) - SQL Toolkit e Object Relational Mapper para Python.
 * [**Pandas**](https://pandas.pydata.org/docs/) - Biblioteca para manipulação e visualização de dados.
 * [**dbdiagram.io**](https://dbdiagram.io/) - Ferramenta utilizada para gerar o diagrama ER automaticamente via código (DBML).
-* [**SQLAlchemy**](https://www.sqlalchemy.org/) - SQL Toolkit e Object Relational Mapper para Python.
 
 ---
 
