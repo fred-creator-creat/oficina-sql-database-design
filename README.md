@@ -10,6 +10,16 @@
 
 ---
 
+## 💡 Sobre o Projeto e Desafios de Implementação
+
+Este repositório apresenta a solução completa para um sistema de banco de dados de E-commerce. Diferente da abordagem convencional, este projeto exigiu a superação de diversas barreiras técnicas, detalhadas abaixo:
+
+### 🛠️ Solução Criativa e Adaptação de Hardware
+Devido ao fato de estar utilizando um **computador emprestado** que não possui suporte para a instalação de softwares pesados como o **MySQL Workbench**, optei por uma solução inteiramente baseada em nuvem:
+* **Ambiente de Desenvolvimento:** [Google Colab](https://colab.research.google.com/)
+* **Tecnologia:** Linguagem **SQL** executada via **Python** com as bibliotecas `mysql-connector-python` e `Pandas` (para manipulação e visualização de dados em formato de tabela).
+* **Proatividade:** Essa escolha garantiu que o desafio fosse entregue dentro dos prazos, validando a lógica e a integridade referencial através de scripts funcionais, mesmo sem a ferramenta visual padrão.
+
 ## 📝 Descrição do Projeto
 Este projeto consiste na implementação de um sistema de banco de dados relacional para o contexto de uma **Oficina Mecânica**. O objetivo é gerenciar Ordens de Serviço (OS), veículos, clientes, mecânicos, além de peças e serviços, garantindo a integridade dos dados e permitindo consultas complexas para suporte à decisão.
 
