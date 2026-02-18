@@ -4,8 +4,7 @@
 ---
 
 ## 👨‍💻 Autor e Apoio
-* **Protagonista:** [Seu Nome Aqui]
-* **Auxiliar Técnico:** [Gemini AI](https://gemini.google.com/)
+* **Desenvolvedor:** [Fred Cavalheiro]
 * **Instituição:** [DIO (Digital Innovation One)](https://www.dio.me/)
 * **Patrocínio:** [Klabin](https://www.klabin.com.br/)
 
@@ -25,7 +24,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 * [**Google Colab**](https://colab.research.google.com/) - Ambiente de desenvolvimento em nuvem.
 * [**MySQL**](https://www.mysql.com/) - Sistema de Gerenciamento de Banco de Dados (SGBD).
 * [**Pandas**](https://pandas.pydata.org/docs/) - Biblioteca para manipulação e visualização de dados.
-* [**Diagrams.io (Draw.io)**](https://app.diagrams.net/) - Ferramenta para modelagem do diagrama ER.
+* [**dbdiagram.io**](https://dbdiagram.io/) - Ferramenta utilizada para gerar o diagrama ER automaticamente via código (DBML).
 * [**SQLAlchemy**](https://www.sqlalchemy.org/) - SQL Toolkit e Object Relational Mapper para Python.
 
 ---
