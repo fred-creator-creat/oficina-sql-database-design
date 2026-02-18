@@ -1,2 +1,65 @@
-# oficina-sql-database-design
-Implementação de um sistema de banco de dados relacional para gerenciamento de ordens de serviço em uma oficina mecânica. O projeto abrange desde a modelagem lógica (esquema conceitual para relacional) até a criação do script SQL, persistência de dados e consultas complexas utilizando JOINs, GROUP BY e HAVING.
+# 🛠️ Sistema de Gerenciamento de Oficina Mecânica (SQL)
+### 🎓 Desafio de Projeto - Bootcamp Klabin - Excel e Power BI Dashboards 2026
+
+---
+
+## 👨‍💻 Autor e Apoio
+* **Protagonista:** [Seu Nome Aqui]
+* **Auxiliar Técnico:** [Gemini AI](https://gemini.google.com/)
+* **Instituição:** [DIO (Digital Innovation One)](https://www.dio.me/)
+* **Patrocínio:** [Klabin](https://www.klabin.com.br/)
+
+---
+
+## 📝 Descrição do Projeto
+Este projeto consiste na implementação de um sistema de banco de dados relacional para o contexto de uma **Oficina Mecânica**. O objetivo é gerenciar Ordens de Serviço (OS), veículos, clientes, mecânicos, além de peças e serviços, garantindo a integridade dos dados e permitindo consultas complexas para suporte à decisão.
+
+> **Nota de Implementação:** Devido a limitações de hardware local e à necessidade de uma solução ágil, o projeto foi desenvolvido inteiramente em **nuvem**. O uso do **Google Colab** foi estratégico para simular um ambiente de produção Linux/MySQL sem sobrecarregar a máquina física utilizada.
+
+---
+
+## 🛠️ Ferramentas e Documentações (Links Úteis)
+
+O projeto foi construído utilizando as seguintes tecnologias:
+
+* [**Google Colab**](https://colab.research.google.com/) - Ambiente de desenvolvimento em nuvem.
+* [**MySQL**](https://www.mysql.com/) - Sistema de Gerenciamento de Banco de Dados (SGBD).
+* [**Pandas**](https://pandas.pydata.org/docs/) - Biblioteca para manipulação e visualização de dados.
+* [**Diagrams.io (Draw.io)**](https://app.diagrams.net/) - Ferramenta para modelagem do diagrama ER.
+* [**SQLAlchemy**](https://www.sqlalchemy.org/) - SQL Toolkit e Object Relational Mapper para Python.
+
+---
+
+## 📐 Modelagem e Código Fonte
+
+Abaixo estão os acessos diretos para os entregáveis técnicos do projeto:
+
+* 🖼️ [**Acesse aqui a Imagem do Diagrama (Esquema Lógico)**](./) *(Suba o arquivo .png e ele ficará acessível)*
+* 📜 [**Acesse aqui o Código DBML / DML (Script SQL)**](./) *(Suba o seu arquivo .sql ou .txt aqui)*
+* 📓 [**Acesse o Notebook do Projeto no Colab**](./) *(Suba o seu arquivo .ipynb aqui)*
+
+---
+
+## 🚀 Estrutura do Desafio
+
+O código foi dividido em etapas lógicas para facilitar a manutenção:
+
+1.  **Configuração do Ambiente:** Instalação do servidor MySQL dentro da instância do Colab.
+2.  **Definição do Esquema (DDL):** Criação de tabelas com chaves primárias, estrangeiras e constraints de integridade.
+3.  **Persistência de Dados (DML):** Inserção de dados fictícios para simulação de cenários reais.
+4.  **Queries de Negócio:**
+    * Filtros com `WHERE` e ordenações com `ORDER BY`.
+    * Cálculos de atributos derivados (Margem de lucro, faturamento).
+    * Agrupamentos com `GROUP BY` e filtros de grupo com `HAVING`.
+    * Junções complexas com `INNER JOIN` para relatórios detalhados.
+
+---
+
+## 📊 Performance e Visualização
+Utilizamos a integração do **Pandas** com o **SQLAlchemy** para gerar tabelas interativas diretamente no notebook, permitindo uma análise rápida dos dados de faturamento e produtividade da oficina.
+
+---
+
+<p align="center">
+Desenvolvido com foco em excelência técnica para o Bootcamp Klabin - DIO 2026 🚀
+</p>
