@@ -10,10 +10,6 @@
 
 ---
 
-## 💡 Sobre o Projeto e Desafios de Implementação
-
-Este repositório apresenta a solução completa para um sistema de banco de dados de E-commerce. Diferente da abordagem convencional, este projeto exigiu a superação de diversas barreiras técnicas, detalhadas abaixo:
-
 ### 🛠️ Solução Criativa e Adaptação de Hardware
 Devido ao fato de estar utilizando um **computador emprestado** que não possui suporte para a instalação de softwares pesados como o **MySQL Workbench**, optei por uma solução inteiramente baseada em nuvem:
 * **Ambiente de Desenvolvimento:** [Google Colab](https://colab.research.google.com/)
