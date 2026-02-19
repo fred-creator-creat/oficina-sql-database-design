@@ -11,10 +11,13 @@
 ---
 
 ### 🛠️ Solução Criativa e Adaptação de Hardware
-Devido ao fato de estar utilizando um **computador emprestado** que não possui suporte para a instalação de softwares pesados como o **MySQL Workbench**, optei por uma solução inteiramente baseada em nuvem:
-* **Ambiente de Desenvolvimento:** [Google Colab](https://colab.research.google.com/)
-* **Tecnologia:** Linguagem **SQL** executada via **Python** com as bibliotecas `mysql-connector-python` e `Pandas` (para manipulação e visualização de dados em formato de tabela).
-* **Proatividade:** Essa escolha garantiu que o desafio fosse entregue dentro dos prazos, validando a lógica e a integridade referencial através de scripts funcionais, mesmo sem a ferramenta visual padrão.
+Devido ao fato de estar utilizando um **computador emprestado** que não suporta softwares pesados como o **MySQL Workbench**, optei por uma arquitetura 100% em nuvem para garantir a qualidade da entrega:
+
+* **Modelagem Ágil:** Utilizei o [**dbdiagram.io**](https://dbdiagram.io/), que permite criar o esquema lógico via código (DBML), dispensando ferramentas locais de desenho técnico e garantindo a exportação do diagrama em alta resolução.
+* **Ambiente de Banco de Dados:** Usei o [**Google Colab**](https://colab.research.google.com/) para emular um servidor Linux com **MySQL**, permitindo a execução real de comandos SQL.
+* **Tecnologia:** Integração via **Python** com as bibliotecas `mysql-connector-python` e `Pandas` para visualização dos resultados.
+
+Essa abordagem validou a integridade referencial do banco de dados e permitiu a criação de relatórios profissionais, superando as limitações físicas do hardware disponível.
 
 ## 📝 Descrição do Projeto
 Este projeto consiste na implementação de um sistema de banco de dados relacional para o contexto de uma **Oficina Mecânica**. O objetivo é gerenciar Ordens de Serviço (OS), veículos, clientes, mecânicos, além de peças e serviços, garantindo a integridade dos dados e permitindo consultas complexas para suporte à decisão.
