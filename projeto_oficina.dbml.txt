@@ -1,0 +1,65 @@
+// Use este código no dbdiagram.io para gerar seu diagrama
+Table client {
+  idClient int [primary key, increment]
+  fname varchar
+  lname varchar
+  cpf char(11) [unique]
+  address varchar
+  contact char(11)
+}
+
+Table vehicle {
+  idVehicle int [primary key, increment]
+  idVehicleClient int
+  plate char(7) [unique]
+  model varchar
+  brand varchar
+}
+
+Table mechanic {
+  idMechanic int [primary key, increment]
+  name varchar
+  address varchar
+  specialty varchar
+}
+
+Table service_order {
+  idOS int [primary key, increment]
+  idOSVehicle int
+  issue_date date
+  total_amount float
+  os_status enum
+  delivery_date date
+}
+
+Table service {
+  idService int [primary key, increment]
+  description varchar
+  service_value float
+}
+
+Table part {
+  idPart int [primary key, increment]
+  description varchar
+  part_value float
+}
+
+Table os_has_services {
+  idOS_service int
+  idService_os int
+  quantity int
+}
+
+Table os_has_parts {
+  idOS_part int
+  idPart_os int
+  quantity int
+}
+
+// Relacionamentos (Foreign Keys)
+Ref: vehicle.idVehicleClient > client.idClient
+Ref: service_order.idOSVehicle > vehicle.idVehicle
+Ref: os_has_services.idOS_service > service_order.idOS
+Ref: os_has_services.idService_os > service.idService
+Ref: os_has_parts.idOS_part > service_order.idOS
+Ref: os_has_parts.idPart_os > part.idPart
