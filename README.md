@@ -42,7 +42,7 @@ Abaixo estão os acessos diretos para os entregáveis técnicos do projeto:
 
 * 🖼️ [**Acesse aqui a Imagem do Diagrama (Esquema Lógico)**](./diagrama_oficina.png) *(Suba o arquivo .png e ele ficará acessível)*
 * 📜 [**Acesse aqui o Código DBML / DML (Script SQL)**](./projeto_oficina.dbml.txt) *(Suba o seu arquivo .sql ou .txt aqui)*
-* 📓 [**Acesse o Notebook do Projeto no Colab**](./) *(Suba o seu arquivo .ipynb aqui)*
+* 📓 [**Acesse o Notebook do Projeto no Colab**](./Automotive_Service_System_SQL.ipynb) *(Suba o seu arquivo .ipynb aqui)*
 
 ---
 
