@@ -40,9 +40,9 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 Abaixo estão os acessos diretos para os entregáveis técnicos do projeto:
 
-* 🖼️ [**Acesse aqui a Imagem do Diagrama (Esquema Lógico)**](./diagrama_oficina.png) *(Suba o arquivo .png e ele ficará acessível)*
-* 📜 [**Acesse aqui o Código DBML / DML (Script SQL)**](./projeto_oficina.dbml.txt) *(Suba o seu arquivo .sql ou .txt aqui)*
-* 📓 [**Acesse o Notebook do Projeto no Colab**](./Automotive_Service_System_SQL.ipynb) *(Suba o seu arquivo .ipynb aqui)*
+* 🖼️ [**Acesse aqui a Imagem do Diagrama (Esquema Lógico)**](./diagrama_oficina.png)
+* 📜 [**Acesse aqui o Código DBML (Estrutura do Diagrama)**](./projeto_oficina.dbml.txt)
+* 📓 [**Acesse o Notebook do Projeto no Colab (Código SQL/Python)**](./Automotive_Service_System_SQL.ipynb)
 
 ---
 
@@ -50,14 +50,14 @@ Abaixo estão os acessos diretos para os entregáveis técnicos do projeto:
 
 O código foi dividido em etapas lógicas para facilitar a manutenção:
 
-1.  **Configuração do Ambiente:** Instalação do servidor MySQL dentro da instância do Colab.
-2.  **Definição do Esquema (DDL):** Criação de tabelas com chaves primárias, estrangeiras e constraints de integridade.
-3.  **Persistência de Dados (DML):** Inserção de dados fictícios para simulação de cenários reais.
-4.  **Queries de Negócio:**
-    * Filtros com `WHERE` e ordenações com `ORDER BY`.
-    * Cálculos de atributos derivados (Margem de lucro, faturamento).
-    * Agrupamentos com `GROUP BY` e filtros de grupo com `HAVING`.
-    * Junções complexas com `INNER JOIN` para relatórios detalhados.
+1. **Configuração do Ambiente:** Instalação do servidor MySQL dentro da instância do Colab.
+2. **Definição do Esquema (DDL):** Criação de tabelas com chaves primárias, estrangeiras e constraints de integridade.
+3. **Persistência de Dados (DML):** Inserção de dados fictícios para simulação de cenários reais.
+4. **Queries de Negócio:**
+   * Filtros com `WHERE` e ordenações com `ORDER BY`.
+   * Cálculos de atributos derivados (Margem de lucro, faturamento).
+   * Agrupamentos com `GROUP BY` e filtros de grupo com `HAVING`.
+   * Junções complexas com `INNER JOIN` para relatórios detalhados.
 
 ---
 
